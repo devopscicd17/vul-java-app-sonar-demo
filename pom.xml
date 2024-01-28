@@ -7,12 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JavaVulnerableLab Maven Webapp</name>
   <url>http://maven.apache.org</url>
-	<properties>
-		<maven.compiler.source>16</maven.compiler.source>
-   <maven.compiler.target>16</maven.compiler.target>
-  <sonar.organization>devopscicd17</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,13 +25,10 @@
 	    <version>20090211</version>
 	</dependency>
 	<dependency>
-  <groupId>javax.servlet</groupId>
-  <artifactId>javax.servlet-api</artifactId>
-  <version>3.0.1</version>
-  <scope>compile</scope>
-  <optional>true</optional>
-</dependency>
-
+		<groupId>javax.servlet</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
 	<dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
@@ -46,7 +37,7 @@
 	<dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
-    <version>3.3.2</version>
+    <version>2.3</version>
     <scope>provided</scope>
 </dependency>	 	
   </dependencies>
